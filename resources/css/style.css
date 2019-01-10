@@ -1,0 +1,52 @@
+body {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.buttons {
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 35%;
+}
+
+.buttons a {
+    color: #fff;
+    font-family: tahoma;
+    font-size: 24px;
+    margin: 0 20px;
+    padding: 20px 40px;
+    text-decoration: none;
+		transition-duration: 400ms;
+		transition-property: border-radius, opacity;
+}
+
+.first-button {
+	background-color: #006799;
+}
+
+.first-button:hover {
+	background-color: #000000;
+	color: white;
+}
+
+.first-button:active {
+	background-color:#fff;
+	color:#000;
+}
+
+.second-button {
+	background-color: #EE2A29;
+}
+
+.second-button:hover {
+	background-color: #006799;
+	border-radius: 25px;
+}
+
+.third-button {
+	background-color: #000000;
+}
+
+.third-button:hover {
+	background-color: #EE2A29;
+}
